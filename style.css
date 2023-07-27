@@ -6,6 +6,47 @@
     vertical-align: baseline;
 }
 
+@media (max-width: 767px) {
+    .desktop {
+
+        display: none;
+    }
+      .tablet{
+
+        display: none;
+      }
+    }
+
+
+
+    @media (max-width 767px) and (max-width: 990px) {
+
+
+        .desktop {
+
+            display: none;
+        }
+
+          .movil{
+
+            display: none;
+
+
+      
+
+
+          }
+
+        }
+
+    @media (max-width: 990px){
+
+    .desktop{display: none;}
+
+        .movil{display: none;}
+    }
+  
+
 body {
     text-align: center;
     font-family: serif;
